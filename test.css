@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header styles */
+header {
+  background-color: black;
+}
+
+a:hover,
+#homepage-tab {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f9c747;
+  color: black;
+  height: 34px;
+  width: 114px;
+  border-radius: 6px;
+  margin-left: -10px;
+}
+#homepage-tab > span {
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+a:hover > span {
+  margin-top: 5px;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+/* navbar styles */
+
+#nav {
+  margin-left: 40%;
+  position: relative;
+  display: flex;
+
+  width: 596px;
+}
+
+/* navbar styles for smaller screen.... */
+.custom-select {
+  display: none;
+}
+
+/* main styles */
+#nav-list {
+  position: relative;
+  margin-top: 42px;
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+
+#main-head {
+  position: relative;
+  margin-top: 41px;
+  font-size: 2.3rem;
+  color: white;
+}
+
+#header-container {
+  height: 126px;
+  /* border: 1px solid white; */
+  width: 87%;
+  margin-left: 8%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#last-nav-item {
+  margin-right: 0px;
+}
+
+.nav-items {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.nav-items:hover {
+  margin-right: 15px;
+}
+
+.nav-links {
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* first section styles.... */
+
+#first {
+  margin-top: 67px;
+}
+
+#card-container {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-left: 5%;
+  /* border: 1px solid black; */
+}
+
+/* design for cards */
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 47px;
+  position: relative;
+  height: 330px;
+  width: 350px;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+
+#last-card-item {
+  margin-right: 0px;
+}
+
+#first-card-item {
+  margin-left: 36px;
+}
+
+.card-image {
+  width: 340px;
+  height: 145px;
+  display: inline-block;
+}
+
+.card-caption {
+  margin-top: 18px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card-info {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 16px;
+  /* border: 1px solid black; */
+  height: 60px;
+  width: 100%;
+}
+
+.more-info-button {
+  margin-top: 6px;
+  height: 38px;
+  border: none;
+  background-color: #f9c747;
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 120px;
+  border-radius: 11px;
+}
+
+.section-button {
+  margin-top: 5px;
+}
+
+#lower-design {
+  display: inherit;
+  width: 100%;
+}
+
+/* section two styles..... */
+#second {
+  margin-top: 26px;
+  /* border: 1px solid black; */
+}
+
+#line {
+  width: 84%;
+  margin-left: 8%;
+  border-top: 1px solid #ddd6d6;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 52px;
+}
+
+#main-container {
+  width: 84%;
+  margin-left: 8%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* section designs */
+
+#section-heading {
+  font-weight: 600;
+  color: #4f4f4f;
+  font-size: 2.4rem;
+}
+
+#section-subheading {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+#left-side {
+  /* border: 1px solid black; */
+  width: 68%;
+  display: inline-block;
+}
+
+/* design for aside */
+
+aside {
+  display: inline-block;
+  width: 30%;
+  /* border: 1px solid black; */
+  position: relative;
+  margin-left: 22px;
+}
+
+#main-box {
+  display: flex;
+  flex-direction: column;
+}
+
+#aside-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-card-para {
+  margin-top: 18px;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+#aside-heading {
+  font-weight: 600;
+  color: #4f4f4f;
+}
+
+#categories-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-items {
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.categories-para {
+  font-size: 0.8rem;
+}
+
+.categories-para-subs {
+  font-size: 0.8rem;
+  color: slategray;
+}
+
+#column-button {
+  margin-top: 50px;
+}
+
+#main-card-button {
+  margin-top: 12px;
+}
+
+/* third section styles.... */
+#last-container {
+  height: 126px;
+  background-color: black;
+  margin-top: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#copyright-para {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+#upper-design {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+}
+
+/* media queries below.... */
+
+/* for 1040px max-width */
+
+@media only screen and (max-width: 1040px) {
+  #card-container {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-item {
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+  .more-info-button {
+    margin-top: 40px;
+  }
+
+  #left-side {
+    width: 85%;
+  }
+  #main-box {
+    width: 100%;
+  }
+}
+
+/* for 1205px max-width */
+
+@media only screen and (max-width: 1205px) {
+  .card-item {
+    width: 43%;
+  }
+
+  #first-card-item {
+    margin-left: 0px;
+  }
+}
+
+/* for 1288px max-width */
+
+@media only screen and (max-width: 1288px) {
+  #nav {
+    margin-left: 35%;
+  }
+}
+
+/* for 1214px max-width */
+
+@media only screen and (max-width: 1214px) {
+  #nav {
+    margin-left: 32%;
+  }
+}
+
+/* for 1182px max-width */
+
+@media only screen and (max-width: 1182px) {
+  #nav {
+    margin-left: 29%;
+  }
+}
+
+/* for 1106px max-width */
+
+@media only screen and (max-width: 1106px) {
+  #nav {
+    margin-left: 25%;
+  }
+}
+
+/* for 1052px max-width */
+
+@media only screen and (max-width: 1052px) {
+  #nav {
+    margin-left: 21%;
+  }
+}
+
+/* for 1312px max-width */
+
+@media only screen and (max-width: 1312px) {
+  #card-container {
+    justify-content: space-between;
+  }
+
+  .card-item {
+    width: 43%;
+  }
+
+  #second {
+    width: 92%;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+  aside {
+    width: 89%;
+    margin-top: 16px;
+    margin-left: 0px;
+  }
+}
+
+/* for 996px max-width */
+
+@media only screen and (max-width: 996px) {
+  #nav {
+    display: none;
+  }
+  #header-container {
+    justify-content: space-between;
+  }
+  #nav-list {
+    display: none;
+  }
+  .custom-select {
+    display: inline-block;
+    position: relative;
+    font-family: Arial;
+    margin-top: 41px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+
+  .select-selected {
+    background-color: black;
+  }
+
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: grey transparent transparent transparent;
+  }
+
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent grey transparent;
+    top: 7px;
+  }
+
+  /* style the items (options), including the selected item: */
+  .select-items div,
+  .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    background-color: black;
+  }
+
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+
+  .select-items div:hover,
+  .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* for 808px max-width */
+
+@media only screen and (max-width: 808px) {
+  #card-container {
+    flex-direction: column;
+  }
+  #first-card-item {
+    margin-top: -15px;
+  }
+}
